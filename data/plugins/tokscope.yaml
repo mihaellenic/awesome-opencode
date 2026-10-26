@@ -1,0 +1,4 @@
+name: Tokscope
+repo: https://github.com/mihaellenic/opencode-tokscope
+tagline: See which models and providers are fastest in your real OpenCode usage — median tok/s with daily trends
+description: An OpenCode V2 TUI plugin that measures output throughput from your actual session history. A full-screen /tokscope page compares median tokens per second for each model/provider pair, a daily trend view tracks whether pairs are getting faster or slower with project, time-range, and reasoning filters, and a clickable sidebar widget shows the fastest pairs from the last 24 hours. Reads existing history through the connected OpenCode server, so measurements start immediately. Install with `opencode plugin add opencode-tokscope`.
